@@ -12,7 +12,7 @@ The application can be run locally by cloning the repository and running `npm st
 
 ## Check it out
 
-<img src="/src/assets/img/portfolio.png">
+<img src="my-portfolio/src/assets/img/portfolio.png">
 
 
 ## Crititeria
