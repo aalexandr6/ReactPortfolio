@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.9c08ad64.css",
+    "main.js": "/react-gh-pages/static/js/main.a935be72.js",
+    "static/js/787.128fc6e9.chunk.js": "/react-gh-pages/static/js/787.128fc6e9.chunk.js",
+    "static/media/fall.JPG": "/react-gh-pages/static/media/fall.f45427b0ebb5f4191411.JPG",
+    "static/media/horiseon.png": "/react-gh-pages/static/media/horiseon.6fbad7058f42c1fb76dc.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.9c08ad64.css.map": "/react-gh-pages/static/css/main.9c08ad64.css.map",
+    "main.a935be72.js.map": "/react-gh-pages/static/js/main.a935be72.js.map",
+    "787.128fc6e9.chunk.js.map": "/react-gh-pages/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c08ad64.css",
+    "static/js/main.a935be72.js"
+  ]
+}
