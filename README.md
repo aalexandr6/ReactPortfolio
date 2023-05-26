@@ -1,8 +1,23 @@
 # React Challenge: Portfolio
-Still working on getting late and i have work tomorrow. 
-## Description
 
-```
+## Project Description
+
+This project is a portfolio created using React. It is a single-page application that contains a header, a section for content, and a footer. The header contains the developer's name and navigation with titles corresponding to different sections of the portfolio. The navigation titles are About Me, Projects and Contact me. The title corresponding to the current section is highlighted. When a navigation title is clicked, the corresponding section is presented below the navigation without the page reloading and that title is highlighted. When the portfolio is loaded the first time, the About Me title and section are selected by default. When the About Me section a short bio is displayed with a recent photo (will change). The footer contains text links to my GitHub and LinkedIn profile. The projects section shows all recents projects i have completed in the last 6 mnoths with links to both the deployed applications and the corresponding GitHub repository. The contact section shows a contact form with fields for a name, an email address, and a message. The resume section shows a link to a downloadable resume and a list of my proficiencies.
+
+## Usage 
+
+The application is deployed on GitHub Pages at the following link: https://aalexandr6.github.io/reactportfolio/
+
+The application can be run locally by cloning the repository and running `npm start` in the terminal.
+
+## Check it out
+
+<img src="/src/assets/img/portfolio.png">
+
+
+## Crititeria
+
+```bash
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
