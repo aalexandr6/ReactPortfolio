@@ -1,5 +1,5 @@
 import React from 'react';
-import project1 from '../img/horiseon.png';
+import project1 from '..//../assets/img/horiseon.png';
 
 
 export default function Home () {

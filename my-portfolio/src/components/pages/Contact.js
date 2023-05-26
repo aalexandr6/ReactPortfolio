@@ -49,6 +49,7 @@ function Form() {
   };
 
   return (
+    <div class= "container">
     <div>
       <p>Hello {userName}</p>
       <form className="form">
@@ -77,6 +78,7 @@ function Form() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+    </div>
     </div>
   );
 }
