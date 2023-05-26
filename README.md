@@ -6,7 +6,7 @@ This project is a portfolio created using React. It is a single-page application
 
 ## Usage 
 
-The application is deployed on GitHub Pages at the following link: https://aalexandr6.github.io/reactportfolio/
+The application is deployed on GitHub Pages at the following link: [My Portfolio](https://aalexandr6.github.io/ReactPortfolio/)
 
 The application can be run locally by running `npm start` in the terminal.
 
