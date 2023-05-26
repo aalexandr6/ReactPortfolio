@@ -1,12 +1,17 @@
 import React from 'react';
+import Me from '..//img/fall.JPG'
 
 export default function About() {
   return (
-    <div>
-        <h1>About Pages</h1>
-        <p>
-        I'm an up and coming Web Developer here in Kansas City! I've studied Business Administration and currently work Accounts Payable at a trucking company. I have always loved computers and design and love the idea of turning complex problems into beatiful interface
-        </p>
-    </div>
+    
+    <div className="card">
+      <img src={Me} className="img-fluid" alt="..."></img>
+            <div className="card-body">
+                <h1 className="card-title">Aaron Padilla</h1>
+                <h2 className="card-subtitle mb-2 text-muted"> ⭐️ Full Stack Web Developer</h2>
+                <p className="card-text">I am a Full Stack Web Developer with a background in Business Administration. I am a team player and I am always looking for ways to improve myself and my team. I am a Graduate of KU Full Stack Coding Bootcamp. I am proficient in HTML, CSS, JavaScript, Node.js, Express.js, MySQL, MongoDB, React.js, and more. I am currently looking for a position as a Full Stack Web Developer.</p>
+            </div>
+        </div>
+        
   );
 }
