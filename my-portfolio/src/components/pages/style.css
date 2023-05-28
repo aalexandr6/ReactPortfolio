@@ -8,6 +8,12 @@
   font-style: var(--black);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -22,3 +28,5 @@ body {
   height: 50px;
   border-radius: 25px;
 }
+
+
