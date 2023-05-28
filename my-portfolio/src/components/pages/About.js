@@ -5,7 +5,7 @@ export default function About() {
   return (
     
     
-<div className="jumbotron-fluid">
+<div className="jumbotron jumbotron-fluid">
       
             <div className="-body">
                 <h1 className="text-white card-title text-dark display-4">Aaron Padilla</h1>
