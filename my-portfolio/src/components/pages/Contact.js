@@ -49,7 +49,8 @@ function Form() {
   };
 
   return (
-    <div class= "container">
+    
+    <div class= "jumbotron jumbotron-fluid">
     <div>
       <p>Hello {userName}</p>
       <form className="form">

@@ -1,4 +1,5 @@
 import React from 'react';
+import "..//pages/style.css";
 import project1 from '..//../assets/img/horiseon.png';
 
 

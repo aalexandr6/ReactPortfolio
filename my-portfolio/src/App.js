@@ -3,6 +3,7 @@ import NavTabs from './components/pages/NavTabs';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import Footer from './components/pages/Footer';
 
 
 
@@ -28,6 +29,7 @@ export default function App() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }
