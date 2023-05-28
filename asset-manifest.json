@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.da7c307f.css",
-    "main.js": "/react-gh-pages/static/js/main.6f4580fc.js",
-    "static/js/787.128fc6e9.chunk.js": "/react-gh-pages/static/js/787.128fc6e9.chunk.js",
-    "static/media/fastmunchies.png": "/react-gh-pages/static/media/fastmunchies.37f7905b73ca28374c8e.png",
-    "static/media/datenight.png": "/react-gh-pages/static/media/datenight.a2b6ff1b502b78bc03e8.png",
-    "static/media/transline.png": "/react-gh-pages/static/media/transline.5afa4925e2e9884f5572.png",
-    "static/media/bg.JPG": "/react-gh-pages/static/media/bg.8bb71ff9370434adac34.JPG",
-    "static/media/fall.JPG": "/react-gh-pages/static/media/fall.f45427b0ebb5f4191411.JPG",
-    "static/media/horiseon.png": "/react-gh-pages/static/media/horiseon.6fbad7058f42c1fb76dc.png",
-    "static/media/weatherdb.png": "/react-gh-pages/static/media/weatherdb.d58c06c6287232654485.png",
-    "static/media/password.png": "/react-gh-pages/static/media/password.aa1300343b0b7b9e011f.png",
-    "static/media/Notetaker.png": "/react-gh-pages/static/media/Notetaker.8e5498df4157cb96ae70.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.da7c307f.css.map": "/react-gh-pages/static/css/main.da7c307f.css.map",
-    "main.6f4580fc.js.map": "/react-gh-pages/static/js/main.6f4580fc.js.map",
-    "787.128fc6e9.chunk.js.map": "/react-gh-pages/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.da7c307f.css",
+    "main.js": "/ReactPortfolio/static/js/main.9ebcb9f7.js",
+    "static/js/787.128fc6e9.chunk.js": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/fastmunchies.png": "/ReactPortfolio/static/media/fastmunchies.37f7905b73ca28374c8e.png",
+    "static/media/datenight.png": "/ReactPortfolio/static/media/datenight.a2b6ff1b502b78bc03e8.png",
+    "static/media/transline.png": "/ReactPortfolio/static/media/transline.5afa4925e2e9884f5572.png",
+    "static/media/bg.JPG": "/ReactPortfolio/static/media/bg.8bb71ff9370434adac34.JPG",
+    "static/media/fall.JPG": "/ReactPortfolio/static/media/fall.f45427b0ebb5f4191411.JPG",
+    "static/media/horiseon.png": "/ReactPortfolio/static/media/horiseon.6fbad7058f42c1fb76dc.png",
+    "static/media/weatherdb.png": "/ReactPortfolio/static/media/weatherdb.d58c06c6287232654485.png",
+    "static/media/password.png": "/ReactPortfolio/static/media/password.aa1300343b0b7b9e011f.png",
+    "static/media/Notetaker.png": "/ReactPortfolio/static/media/Notetaker.8e5498df4157cb96ae70.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.da7c307f.css.map": "/ReactPortfolio/static/css/main.da7c307f.css.map",
+    "main.9ebcb9f7.js.map": "/ReactPortfolio/static/js/main.9ebcb9f7.js.map",
+    "787.128fc6e9.chunk.js.map": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da7c307f.css",
-    "static/js/main.6f4580fc.js"
+    "static/js/main.9ebcb9f7.js"
   ]
 }
