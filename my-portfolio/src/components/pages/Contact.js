@@ -61,7 +61,8 @@ function Form() {
         <p class="lead">
           <a
             class="btn btn-primary btn-lg"
-            href="//assets/img/AP23.pdf" download={true}
+            href="//assets/img/AP23.pdf"
+            download={true}
             role="button"
           >
             My Resume
@@ -71,50 +72,85 @@ function Form() {
       <div className="jumbotron jumbotron-fluid"></div>
       <div className="card-fluid">
         <h1 class="text-white card-title text-dark display-4">
-          You can also submit your information - Thanks for stopping by!👨🏾‍💻✨
+          You can also submit your information - I'll get back to you. Thanks
+          for stopping by! 🎉 🙋🏾‍♂️
         </h1>
-        <form className="form">
-          
-          <label htmlFor="email">Email address:</label>
-
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-          />
-          <input
-            value={userName}
-            name="userName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Fullname"
-          />
-          {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
-          {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
-          <button type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
-        </form>
         <form>
-  <div class="form-group">
-    <label for="exampleFormControlFile1">Example file input</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-      </input>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Leave me a message!</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Reason</label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Example input"
+            ></input>
           </div>
-        )}
-        <img src={BJ} className="img-fluid" alt="..."></img>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Note</label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Another input"
+            ></input>
+          </div>
+        </form>
       </div>
+      <form className="form">
+        <div class="form-row align-items-center">
+          <div class="col-sm-3 my-1">
+            <label class="sr-only" for="inlineFormInputName">
+              Full
+            </label>
+            <input
+              value={email}
+              name="full"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="email"
+            />
+          </div>
+          <div class="col-sm-3 my-1">
+            <label class="sr-only" for="inlineFormInputGroupUsername">
+              Name
+            </label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input
+                value={userName}
+                name="userName"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="username"
+              />
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="autoSizingCheck2"
+              ></input>
+              <label class="form-check-label" for="autoSizingCheck2">
+                Remember me
+              </label>
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <button
+              type="btn btn-primary btn-lg"
+              class="btn btn-primary btn-lg"
+              onClick={handleFormSubmit}
+            >
+              Submit
+            </button>
+            <img src={BJ} className="img-fluid" alt="..."></img>
+          </div>
+        </div>
+      </form>
     </div>
   );
 }
