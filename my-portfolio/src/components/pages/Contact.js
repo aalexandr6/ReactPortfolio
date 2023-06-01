@@ -72,8 +72,7 @@ function Form() {
       <div className="jumbotron jumbotron-fluid"></div>
       <div className="card-fluid">
         <h1 class="text-white card-title text-dark display-4">
-          You can also submit your information - I'll get back to you. Thanks
-          for stopping by! 🎉 🙋🏾‍♂️
+          You can also submit your information - I'll get back to you! 🙋🏾‍♂️
         </h1>
         <div class="input-group">
   <div class="input-group-prepend">
@@ -86,7 +85,7 @@ function Form() {
 </div>
 <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={handleInputChange}>
       </input>
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
@@ -103,49 +102,8 @@ function Form() {
           </div>
         </form>
       </div>
-      <form className="form">
-        <div class="form-row align-items-center">
-          <div class="col-sm-3 my-1">
-            <label class="sr-only" for="inlineFormInputName">
-              Full
-            </label>
-            <input
-              value={email}
-              name="full"
-              onChange={handleInputChange}
-              type="email"
-              placeholder="email"
-            />
-          </div>
-          <div class="col-sm-3 my-1">
-            <label class="sr-only" for="inlineFormInputGroupUsername">
-              Name
-            </label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
-              </div>
-              <input
-                value={userName}
-                name="userName"
-                onChange={handleInputChange}
-                type="text"
-                placeholder="username"
-              />
-            </div>
-          </div>
-          <div class="col-auto my-1">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="autoSizingCheck2"
-              ></input>
-              <label class="form-check-label" for="autoSizingCheck2">
-                Remember me
-              </label>
-            </div>
-          </div>
+    {/* will delete just wanna keep for now */}
+      
           <div class="col-auto my-1">
             <button
               type="btn btn-primary btn-lg"
@@ -157,8 +115,6 @@ function Form() {
             <img src={BJ} className="img-fluid" alt="..."></img>
           </div>
         </div>
-      </form>
-    </div>
   );
 }
 
