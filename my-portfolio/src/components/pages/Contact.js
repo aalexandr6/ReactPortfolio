@@ -75,23 +75,30 @@ function Form() {
           You can also submit your information - I'll get back to you. Thanks
           for stopping by! 🎉 🙋🏾‍♂️
         </h1>
+        <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">First and last name</span>
+  </div>
+  <input type="text" class="form-control">
+    </input>
+  <input type="text" class="form-control">
+    </input>
+</div>
+<div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </input>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
         <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Reason</label>
-            <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput"
-              placeholder="Example input"
-            ></input>
-          </div>
+          
           <div class="form-group">
             <label for="formGroupExampleInput2">Note</label>
             <input
               type="text"
               class="form-control"
               id="formGroupExampleInput2"
-              placeholder="Another input"
+              placeholder="Leave me a message..."
             ></input>
           </div>
         </form>
