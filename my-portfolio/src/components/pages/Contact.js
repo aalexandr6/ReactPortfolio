@@ -74,6 +74,7 @@ function Form() {
           You can also submit your information - Thanks for stopping by!👨🏾‍💻✨
         </h1>
         <form className="form">
+          
           <label htmlFor="email">Email address:</label>
 
           <input
@@ -88,7 +89,7 @@ function Form() {
             name="userName"
             onChange={handleInputChange}
             type="text"
-            placeholder="username"
+            placeholder="Fullname"
           />
           {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
           {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
@@ -96,6 +97,17 @@ function Form() {
             Submit
           </button>
         </form>
+        <form>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Example file input</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </input>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Leave me a message!</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
